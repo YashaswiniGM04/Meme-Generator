@@ -1,0 +1,110 @@
+body {
+    margin: 0%;
+    font-family: "Karla", sans-serif;
+}
+
+.header-div {
+
+    color: white;
+    background: linear-gradient(90deg, #672280, #A626D3);
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.trollFace {
+    width: 31.306px;
+    margin-right: 6px;
+}
+
+.check-out {
+    margin-left: auto;
+}
+
+.input-box {
+    font-family: "Karla", sans-serif;
+    width: 400px;
+    padding: 7px;
+    border: solid #D5D4D8 1px;
+    border-radius: 5px;
+    text-indent: 5px;
+}
+
+#second-box {
+    margin-left: 20px;
+
+}
+
+.form-div {
+
+    margin-top: 36px;
+    width: 860px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.submit-btn {
+    font-family: "Karla", sans-serif;
+    width: 860px;
+    margin-top: 15px;
+    background: linear-gradient(90deg, #672280, #A626D3);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.meme-img  {
+        /* position:relative; */
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:20px;
+        /* border: black solid 2px; */
+        
+        max-width: 100%;
+        border-radius: 3px;
+      }
+
+.meme-sec{
+    position:relative
+}
+
+
+.inputText{
+    
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+    
+}
+
+.top{
+    top:0;
+}
+
+.bottom{
+    top:300px;
+    
+}
